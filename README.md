@@ -1,9 +1,14 @@
 # SegmentView
-This is a Android Segment Control ( View ) like iOS
+This is a Android Segment Control ( View ) like iOS.
 
+**Horizontal :**      
+![gif](images/segment.png)
+
+**Vertical :**      
+![gif](images/tab-v.png)
 
 ## 效果图
-![gif](tab.gif)
+![gif](images/tab.gif)
 
 ## 使用
 1、 引用SegmentView工程;      
@@ -25,6 +30,9 @@ This is a Android Segment Control ( View ) like iOS
 
 ```java
 SegmentView rGroup = (SegmentView) findViewById(R.id.rg);
+// 默认为横向排列，如上图所示，如需纵向排列请调用setOrientation方法
+// rGroup.setOrientation(SegmentView.VERTICAL);
+
 // 设置tabs
 rGroup.setTabs(new String[] {
                 "主页", "朋友圈", "搜索"

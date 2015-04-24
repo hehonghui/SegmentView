@@ -19,6 +19,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main_radio);
 
         SegmentView rGroup = (SegmentView) findViewById(R.id.rg);
+        // 设置纵向排列
+        rGroup.setOrientation(SegmentView.VERTICAL);
         // 设置tabs
         rGroup.setTabs(new String[] {
                 "主页", "朋友圈", "搜索"
