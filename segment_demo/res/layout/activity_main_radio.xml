@@ -1,0 +1,10 @@
+<com.simple.widgets.SegmentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="top|center"
+    android:layout_margin="10dp"
+    android:background="@drawable/segment_shape"
+    android:gravity="center"
+    android:orientation="horizontal" />

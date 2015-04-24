@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Segmented</string>
+    <string name="recomend">推荐</string>
+    <string name="dynamic">动态</string>
+    <string name="topic">话题</string>
+
+</resources>
